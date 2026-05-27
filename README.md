@@ -1,19 +1,52 @@
-# Blazor Dropdownlist Virtualization
+# Blazor Dropdownlist Virtualization Sample
 
-This sample explains about how to enable virtualization in Syncfusion Blazor Dropdownlist component 
+A compact sample demonstrating how to enable virtualization in the [Blazor DropDownList](https://www.syncfusion.com/blazor-components/blazor-dropdown-list) component. This project shows a performant dropdown bound to a large data set using UI virtualization.
 
-**Example**:  https://blazor.syncfusion.com/demos/dropdown-list/virtualization?theme=fluent
+## Overview
 
-**Documentation**: https://blazor.syncfusion.com/documentation/dropdown-list/virtualization#keyboard-interaction
+This sample illustrates how to configure and use virtualization with the Blazor DropDownList component to efficiently render and interact with very large lists. Virtualization reduces memory and rendering work by creating DOM elements only for visible items.
+
+## Features
+
+- High-performance rendering optimized for large datasets
+- Efficient memory usage through UI virtualization techniques
+- Full keyboard navigation support for accessibility
+- Complete project structure supporting multiple deployment scenarios
+- Clean, straightforward implementation ready for real-world applications
 
 ## Prerequisites
 
-Make sure that you have the latest versions of 'Visual Studio 2022' in your machine before starting to work on this project.
+- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-## How to run the project
+## Getting Started
 
-• To run this application, you need to first clone the <code>blazor-dropdownlist-virtualization</code> repository and then open it in Visual Studio 2022.
+### Clone the repository
 
-• Register the syncfusion license key in the Program.cs file, if you have any doubts check the documentation link: https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-dropdownlist-virtualization.git
+cd blazor-hybrid-app-custom-form-validation
+```
 
-• Now, simply build and run your project to view the output.
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run 
+```
+
+## References
+
+- Demo: https://blazor.syncfusion.com/demos/dropdown-list/virtualization?theme=fluent
+- Documentation: https://blazor.syncfusion.com/documentation/dropdown-list/virtualization#keyboard-interaction
